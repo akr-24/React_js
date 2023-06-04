@@ -1,12 +1,18 @@
-const MyHeading=({name,value=200})=>{
-   // alert(props.value);
-    //alternatively we can use props as argument and then we can go for props.name and props.value to access the objects.
-    return <h1>hello ji kaise ho {name},{value}</h1>
-
+import React from "react";
+import "../styles/Header.css";
+import {Link} from "react-router-dom";
+const Header=()=>{
+    return (
+        <nav>
+       <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact Us</Link>
+    </nav>
+    )
 };
 
 
 
-export default MyHeading;
+export default Header;
 
 

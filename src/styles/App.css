@@ -1,0 +1,25 @@
+*{
+    margin:0%;
+    padding: 0%;
+    /*background-color: red;*/
+}
+
+input{
+    margin:1rem;
+    padding: 3rem;
+    border:1px solid rgb(196,196,196);
+    outline: none;
+    border-radius:5px;
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+
+
+}
